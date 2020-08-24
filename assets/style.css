@@ -48,6 +48,7 @@ body {
     color: turquoise;
     font-family: 'DS Digital';
     font-size: 60px;
+    overflow: hidden;
 }
 
 .btn {

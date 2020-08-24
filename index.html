@@ -10,35 +10,35 @@
 		<div class="calculator">
 
 			<div class="line">
-				<div id="display" class="display">127542</div>
+				<div id="display" class="display">0</div>
 			</div>
 
 			<div class="line">
-				<button id="num-7" class="btn numbers">7</button>
-				<button id="num-8" class="btn numbers">8</button>
-				<button id="num-9" class="btn numbers">9</button>
-				<button id="op-div" class="btn operations">/</button>
+				<button id="num-7" class="btn numbers" onclick="digit(7)">7</button>
+				<button id="num-8" class="btn numbers" onclick="digit(8)">8</button>
+				<button id="num-9" class="btn numbers" onclick="digit(9)">9</button>
+				<button id="op-div" class="btn operations" onclick="operation('division')">/</button>
 			</div>
 
 			<div class="line">
-				<button id="num-4" class="btn numbers">4</button>
-				<button id="num-5" class="btn numbers">5</button>
-				<button id="num-6" class="btn numbers">6</button>
-				<button id="op-mult" class="btn operations">x</button>
+				<button id="num-4" class="btn numbers" onclick="digit(4)">4</button>
+				<button id="num-5" class="btn numbers" onclick="digit(5)">5</button>
+				<button id="num-6" class="btn numbers" onclick="digit(6)">6</button>
+				<button id="op-mult" class="btn operations" onclick="operation('multiplication')">x</button>
 			</div>
 
 			<div class="line">
-				<button id="num-1" class="btn numbers">1</button>
-				<button id="num-2" class="btn numbers">2</button>
-				<button id="num-3" class="btn numbers">3</button>
-				<button id="op-sub" class="btn operations">-</button>
+				<button id="num-1" class="btn numbers" onclick="digit(1)">1</button>
+				<button id="num-2" class="btn numbers" onclick="digit(2)">2</button>
+				<button id="num-3" class="btn numbers" onclick="digit(3)">3</button>
+				<button id="op-sub" class="btn operations" onclick="operation('subtraction')">-</button>
 			</div>
 
 			<div class="line">
-				<button id="num-0" class="btn numbers">0</button>
-				<button id="num-." class="btn numbers">.</button>
-				<button id="equal" class="btn equal">=</button>
-				<button id="op-add" class="btn operations">+</button>
+				<button id="num-0" class="btn numbers" onclick="digit(0)">0</button>
+				<button id="clear" class="btn clear" onclick="clearDisplay()">C</button>
+				<button id="equal" class="btn equal" onclick="equal()">=</button>
+				<button id="op-add" class="btn operations" onclick="operation('addition')">+</button>
 			</div>
 			
 		</div>
